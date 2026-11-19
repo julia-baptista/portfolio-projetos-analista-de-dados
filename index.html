@@ -1,0 +1,500 @@
+<!DOCTYPE html><html class="dark" lang="pt-BR" style="width: 1280px; height: 100%; min-height: 100%;"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-primary-container": "#004965", "primary-fixed-dim": "#7bd0ff", "primary-fixed": "#c4e7ff", "on-tertiary-fixed": "#001f25", "on-error": "#690005", "surface-bright": "#343948", "on-background": "#dee2f6", "surface-container": "#1a1f2e", "secondary": "#93ccff", "tertiary": "#3ce0fb", "error": "#ffb4ab", "secondary-fixed": "#cce5ff", "surface-container-highest": "#303444", "on-secondary-fixed": "#001d31", "surface": "#0e1321", "primary": "#8ed5ff", "on-tertiary": "#00363e", "surface-tint": "#7bd0ff", "on-tertiary-container": "#004b56", "inverse-surface": "#dee2f6", "on-error-container": "#ffdad6", "secondary-fixed-dim": "#93ccff", "background": "#0e1321", "surface-variant": "#303444", "outline": "#87929a", "tertiary-container": "#00c3dd", "secondary-container": "#3198dc", "surface-container-high": "#252a39", "tertiary-fixed": "#a2eeff", "error-container": "#93000a", "primary-container": "#38bdf8", "on-primary": "#00354a", "on-secondary": "#003351", "surface-container-low": "#161b2a", "on-primary-fixed": "#001e2c", "surface-container-lowest": "#090e1c", "on-secondary-fixed-variant": "#004b73", "inverse-primary": "#00668a", "on-primary-fixed-variant": "#004c69", "on-surface-variant": "#bdc8d1", "tertiary-fixed-dim": "#2fd9f4", "surface-dim": "#0e1321", "on-secondary-container": "#002c47", "inverse-on-surface": "#2b303f", "outline-variant": "#3e484f", "on-surface": "#dee2f6", "on-tertiary-fixed-variant": "#004e5a" }, "borderRadius": { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, "spacing": { "space-xs": "0.25rem", "space-sm": "0.5rem", "gutter": "1.5rem", "space-xl": "2.5rem", "space-md": "1rem", "margin": "2rem", "space-lg": "1.5rem" }, "fontFamily": { "label-code": [ "JetBrains Mono" ], "headline-xl": [ "Space Grotesk" ], "body-sm": [ "Plus Jakarta Sans" ], "headline-lg": [ "Space Grotesk" ], "headline-md": [ "Space Grotesk" ], "body-lg": [ "Plus Jakarta Sans" ], "label-badge": [ "Plus Jakarta Sans" ], "headline-xl-mobile": [ "Space Grotesk" ], "body-md": [ "Plus Jakarta Sans" ], "label-metric": [ "Space Grotesk" ], "headline-2xl": [ "Space Grotesk" ], "headline-2xl-mobile": [ "Space Grotesk" ] }, "fontSize": { "label-code": [ "13px", { "lineHeight": "18px", "letterSpacing": "0.02em", "fontWeight": "500" } ], "headline-xl": [ "40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "body-sm": [ "13px", { "lineHeight": "20px", "fontWeight": "400" } ], "headline-lg": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "headline-md": [ "22px", { "lineHeight": "30px", "fontWeight": "600" } ], "body-lg": [ "18px", { "lineHeight": "28px", "fontWeight": "400" } ], "label-badge": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" } ], "headline-xl-mobile": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "body-md": [ "15px", { "lineHeight": "24px", "fontWeight": "400" } ], "label-metric": [ "32px", { "lineHeight": "38px", "fontWeight": "700" } ], "headline-2xl": [ "56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "700" } ], "headline-2xl-mobile": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" } ] } } } };</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1200px] mx-auto px-margin flex items-center justify-between gap-space-md"><a class="flex items-center gap-space-sm group" data-path="inicio" href="#"><div class="flex flex-col"></div></a><nav class="hidden lg:flex items-center gap-space-xs p-1.5 bg-surface-container-low rounded-full" data-active-classes="bg-surface-container-high text-primary font-semibold rounded-full"><a class="px-space-md py-space-xs rounded-full font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="inicio" href="#">Início</a><a class="px-space-md py-space-xs rounded-full font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="sobre" href="#sobre">Sobre</a><a class="px-space-md py-space-xs rounded-full font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="experiencia" href="#curriculo">Experiência</a><a class="px-space-md py-space-xs rounded-full font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="ferramentas" href="#ferramentas">Tecnologias</a><a class="px-space-md py-space-xs rounded-full font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="projetos" href="#projetos">Projetos</a><a class="px-space-md py-space-xs rounded-full font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="habilidades" href="#habilidades">Habilidades</a><a class="px-space-md py-space-xs rounded-full font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="contato" href="#contato">Contato</a></nav><div class="flex items-center gap-space-md"></div></div></header><main class="w-full pt-20 bg-surface min-h-screen"><div class="flex flex-col w-full relative overflow-hidden">
+<!-- Dynamic Ambient Glow Backdrops -->
+
+
+
+<!-- SECTION 1: HERO (Aligned with user inspiration aesthetic) -->
+<section class="w-full max-w-[1200px] mx-auto px-margin pt-14 pb-20 flex flex-col items-center text-center">
+<!-- Profile Avatar with Neon Ring -->
+<div class="relative mb-6 group cursor-pointer">
+
+<div class="relative w-28 h-28 rounded-full overflow-hidden p-1 bg-surface-container-low">
+<img class="w-full h-full object-cover rounded-full" data-alt="Close up professional portrait of a senior male data analyst with modern glasses, smiling confidently against a minimalist dark studio background with subtle soft cyan edge lighting and high-tech elegance." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwyX3b4Wevh2vtIzDwh5mbbn8CVRm4gD-QhlJE3eadX4-nV5Ga1nzTpoADKPncv0k-2DW-3W7gB_0Aak5E9oO9eaMCRyhL2JGUcpRfXAJxmrT2eZHLWvqXD_JJNTyh5Ral18Sc7E6J78_yE6ChnEJARoUAN10wzQ3S7VCmPstXvM3YDqya_kRreIyI5kqkU0rkdH52wBncsmxBgy5ftnKMQ7Sp9jqphgDrw7rp6Xew-aP_KGtY_7E_">
+</div>
+</div>
+<!-- Availability Status Pill Badge -->
+<div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-surface-container-high/80 backdrop-blur-md mb-7 shadow-sm">
+<span class="relative flex h-2.5 w-2.5">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-tertiary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-tertiary"></span>
+</span>
+<span class="font-label-badge text-label-badge text-primary font-semibold tracking-wide">
+        Disponível para novos projetos &amp; posições
+      </span>
+</div>
+<!-- Main Headline with Gradient Accents -->
+<h1 class="font-headline-2xl text-headline-2xl max-w-4xl tracking-tight text-on-surface mb-6">
+      Olá, sou Julia Baptista.</h1>
+<!-- Concise Subtitle with High Information Value -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mb-10 leading-relaxed font-normal">
+      Seja bem vindo ao meu portfólio para área de Dados, onde transformo dados em decisões estratégicas.</p>
+<!-- CTAs inspired by Workfolio aesthetic -->
+<div class="flex flex-wrap items-center justify-center gap-4 mb-10">
+<a class="inline-flex items-center justify-center gap-2.5 px-8 py-3.5 rounded-full bg-primary-container text-on-primary-container font-label-badge text-label-badge uppercase tracking-wider shadow-[0_10px_35px_-5px_rgba(56,189,248,0.45)] hover:scale-105 hover:bg-primary transition-all duration-300" href="#projetos">
+<span class="material-symbols-outlined text-[20px]">insights</span>
+<span>Ver Meus Projetos</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2.5 px-8 py-3.5 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-badge text-label-badge uppercase tracking-wider shadow-sm hover:scale-105 transition-all duration-300" href="#contato">
+<span>Currículo</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+<!-- Social Media Badges (Pills) -->
+
+</section>
+<!-- SECTION 2: SOBRE MIM -->
+
+<!-- SECTION 3: CURRÍCULO -->
+<section class="w-full max-w-[1200px] mx-auto px-margin py-16 text-center" id="sobre"><div class="max-w-2xl mx-auto mb-8"><h2 class="font-headline-xl text-headline-xl text-on-surface tracking-tight font-bold mb-3">Sobre Mim</h2></div><p class="font-body-lg text-body-lg text-on-surface-variant max-w-4xl mx-auto leading-relaxed font-normal"></p><p>Sou administradora em transição de carreira para a área de Dados, com
+experiência de um ano em desenvolvimento Full Stack, utilizando React, Java e
+SQL, e atuação mais recente na área comercial como SDR (Pré-Vendas).<o:p></o:p></p>
+
+<p>Sou formada em Análise de Dados pela Comunidade DS, onde desenvolvi
+competências técnicas para atuar em diferentes etapas do ciclo analítico, desde
+a extração e tratamento de dados até a análise, visualização e geração de
+insights para a tomada de decisão.<o:p></o:p></p><p><strong>O que faço:</strong><o:p></o:p></p><p style="margin-left: 36pt; text-indent: -18pt;"><!--[if !supportLists]--><span style="font-size: 10pt; font-family: Symbol;">·<span style="font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><!--[endif]--><strong>Análise Descritiva e Diagnóstica:</strong>
+identifico padrões, tendências e relações nos dados para compreender o que
+aconteceu e investigar suas causas.<o:p></o:p></p><p style="margin-left: 36pt; text-indent: -18pt;"><!--[if !supportLists]--><span style="font-size: 10pt; font-family: Symbol;">·<span style="font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><!--[endif]--><strong>Análise Preditiva e Prescritiva:</strong>
+exploro cenários, identifico oportunidades e proponho ações orientadas por
+dados.<o:p></o:p></p><p><strong>Tecnologias e ferramentas:</strong> Python | SQL | Power BI | Excel
+| Estatística.<o:p></o:p></p><p>Minha formação em Administração, aliada às experiências em tecnologia e área
+comercial, proporciona uma visão de negócio que me permite conectar análises às
+necessidades reais das empresas.<o:p></o:p></p><p>
+
+
+
+
+
+
+
+
+
+</p><p>Busco oportunidades como <strong>Analista de Dados ou Analista de BI</strong>,
+nas quais possa combinar raciocínio analítico, conhecimento técnico e visão
+estratégica de negócios para transformar dados em informações relevantes e
+gerar valor para a tomada de decisão.<o:p></o:p></p><p></p></section><section class="w-full max-w-[1200px] mx-auto px-margin py-16" id="curriculo">
+<div class="bg-surface-container-lowest/80 border-2 border-surface-container-low rounded-lg p-6 md:p-14 relative overflow-hidden shadow-2xl">
+
+
+<!-- Section Header (Resume) with subtle lines -->
+<div class="text-center max-w-2xl mx-auto mb-12">
+<div class="flex items-center justify-center gap-4 mb-3">
+<span class="h-[1px] w-12 bg-outline-variant"></span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface tracking-tight font-bold">
+          Currículo
+        </h2>
+<span class="h-[1px] w-12 bg-outline-variant"></span>
+</div>
+
+</div>
+<!-- Two-Column Resume Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+<!-- Left Column: Photo, Summary, Contacts, Skills -->
+<div class="lg:col-span-5 flex flex-col gap-8">
+<!-- Portrait Photo -->
+<div class="w-32 h-32 rounded-DEFAULT overflow-hidden p-1 bg-surface-container-high shadow-md">
+<img alt="Lucas Albuquerque" class="w-full h-full object-cover rounded" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVTsvp5OB7KENoPJbtHboIX4pjbqhSHf3GNQIS-hQPdMBxN_NErEhNreugthaIdUPc9AYI3YQoPIbXOt0xiv6nIXuITdYVdpsrCNxPnbMMIAdyGeUhiV0VEGpeELkopIiiP7JSALlL9bvlSGrfTP418waimcSgsQQ97J3npBVsDhILlkwhoprYcuybQYYHolkja0qBP6qsKoB6A2l-Fc7Qbg62vr3Ic8qr-z7pRx8O6Rcyp7R0aDpm">
+</div>
+<!-- Professional Summary -->
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-semibold mb-2">Resumo Profissional</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">&nbsp;Profissional em transição de carreira para a área de Análise de Dados, com formação em Análise de Dados pela comunidade DS e conhecimentos em SQL, Python, Excel e Power BI. Possuo experiência em tecnologia e pré-vendas, desenvolvendo habilidades analíticas, comunicação e resolução de problemas.</p>
+</div>
+<!-- Contact Information -->
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-semibold mb-3">Informações de Contato</h3>
+<div class="space-y-2.5 font-body-sm text-body-sm text-on-surface-variant">
+<div class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-[18px] text-primary">location_on</span>
+<span>São Paulo, SP · Brasil (Remoto / Híbrido)</span>
+</div>
+<div class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-[18px] text-tertiary">mail</span>
+<a class="hover:text-primary transition-colors" href="mailto:contato.lucas.data@gmail.com">contato.lucas.data@gmail.com</a>
+</div>
+<div class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-[18px] text-secondary">call</span>
+<a class="hover:text-primary transition-colors" href="tel:+5511987654321">+55 (11) 98765-4321</a>
+</div>
+<div class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-[18px] text-primary-container">share</span>
+<a class="hover:text-primary transition-colors" href="https://linkedin.com" target="_blank">linkedin.com/in/lucas-albuquerque-data</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Column: Experience, Education, Certifications -->
+<div class="lg:col-span-7 flex flex-col gap-10">
+<!-- Professional Experience -->
+<div>
+<div class="flex items-center gap-2 mb-5">
+<div class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-[18px]">work</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-semibold">Experiência Profissional</h3>
+</div>
+<div class="space-y-6 border-l border-surface-container-high pl-4 ml-3.5"><!-- Role 1: SDR (Pré-vendas) - Virtustant -->
+<div class="relative">
+  <div class="absolute -left-[23px] top-1.5 w-3 h-3 rounded-full bg-primary-container border-2 border-surface-container-lowest"></div>
+  <div class="mb-1"><h4 class="font-headline-md text-[18px] text-on-surface font-bold">SDR (Pré-vendas)</h4><p class="font-label-code text-label-code text-tertiary mt-0.5">mar. de 2026 - ago. de 2026 · 6 meses</p></div>
+  <p class="font-label-code text-label-code text-primary mb-2">Virtustant</p>
+  <ul class="list-disc list-inside space-y-1.5 font-body-sm text-body-sm text-on-surface-variant">
+    <li>Atuei alocada em uma agência de marketing cliente da Virtustant, apoiando suas atividades de prospecção e vendas outbound.</li>
+    <li>Realização de ligações outbound para leads com o principal objetivo de agendar reuniões qualificadas para a equipe de vendas.</li>
+    <li>Follow-up com prospects por telefone e elaboração de e-mails personalizados para gerar interesse e aumentar as oportunidades de agendamento.</li>
+    <li>Contato com proprietários de empresas e tomadores de decisão, identificando necessidades e qualificando potenciais oportunidades.</li>
+    <li>Gerenciamento de informações dos leads e acompanhamento dos follow-ups por meio do CRM.</li>
+  </ul>
+</div>
+
+<!-- Role 2: SDR (Pré-vendas) - Soluções Digitais Corp. -->
+<div class="relative">
+  <div class="absolute -left-[23px] top-1.5 w-3 h-3 rounded-full bg-surface-container-highest border-2 border-surface-container-lowest"></div>
+  <div class="mb-1"><h4 class="font-headline-md text-[18px] text-on-surface font-bold">SDR (Pré-vendas)</h4><p class="font-label-code text-label-code text-tertiary mt-0.5">nov. de 2024 - dez. de 2025 · 1 ano 2 meses</p></div>
+  <p class="font-label-code text-label-code text-secondary mb-2">Soluções Digitais Corp.</p>
+  <ul class="list-disc list-inside space-y-1.5 font-body-sm text-body-sm text-on-surface-variant">
+    <li>Filtragem e direcionamento de leads para agências de seguro nos EUA.</li>
+    <li>Prospecção e pré-venda por telefone em inglês, cumprindo metas diárias de produtividade e conversão.</li>
+  </ul>
+</div>
+
+<!-- Role 3: Trainee em Full-Stack Java/React - Zallpy Digital -->
+<div class="relative">
+  <div class="absolute -left-[23px] top-1.5 w-3 h-3 rounded-full bg-surface-container-highest border-2 border-surface-container-lowest"></div>
+  <div class="mb-1"><h4 class="font-headline-md text-[18px] text-on-surface font-bold">Trainee em Full-Stack Java/React</h4><p class="font-label-code text-label-code text-tertiary mt-0.5">jan. de 2023 - dez. de 2023 · 1 ano</p></div>
+  <p class="font-label-code text-label-code text-primary mb-2">Zallpy Digital</p>
+  <ul class="list-disc list-inside space-y-1.5 font-body-sm text-body-sm text-on-surface-variant">
+    <li>Atuação em projetos internos da Zallpy na plataforma de gestão dos funcionários.</li>
+    <li>Implementação de módulo de gestão dos cursos feitos pelas diversas equipes das empresas, importando dados do ClickUp e adicionando filtros gerenciais e novas funcionalidades.</li>
+    <li>Refatoração de funcionalidades de monolito em microsserviços, disponibilizando e consumindo APIs REST e realizando integração com banco de dados relacional.</li>
+    <li>Manutenção contínua e melhorias na estabilidade da plataforma.</li>
+    <li>Stack tecnológica: React no front-end, Java 11 com Spring Boot 2.1.4 no back-end, banco de dados PostgreSQL, JUnit para testes unitários e Postman para testes de endpoints.</li>
+    <li>Versionamento com Git/GitLab e metodologia ágil Scrum com Kanban.</li>
+  </ul>
+</div></div>
+</div>
+<!-- Education -->
+<div>
+<div class="flex items-center gap-2 mb-5">
+<div class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[18px]">school</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-semibold">Formação Acadêmica</h3>
+</div>
+<div class="space-y-4 border-l border-surface-container-high pl-4 ml-3.5">
+<!-- Edu 1 -->
+<div class="relative">
+<div class="absolute -left-[23px] top-1.5 w-3 h-3 rounded-full bg-tertiary border-2 border-surface-container-lowest"></div>
+<div class="flex flex-wrap items-center justify-between gap-1">
+<h4 class="font-headline-md text-[16px] text-on-surface font-bold"><span data-token-index="0" class="notion-enable-hover">Formação em Análise de Dados</span><!-- notionvc: 150461db-7932-4ce7-b54f-88350448f49f --></h4>
+<span class="font-label-code text-label-code text-on-surface-variant">2026</span>
+</div>
+<p class="font-label-code text-label-code text-on-surface-variant">Comunidade DS<!-- notionvc: 150461db-7932-4ce7-b54f-88350448f49f --></p>
+<div class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mt-2 space-y-2.5"><p>Formação profissional com foco em resolver problemas de negócio através de dados. Aprendi e pratiquei todo o ciclo analítico: da extração e limpeza de dados à apresentação de insights para tomada de decisão.</p><ul class="list-disc list-inside space-y-1.5 pl-1"><li>Desenvolvi análises <strong>Descritiva, Diagnóstica, Preditiva e Prescritiva</strong> com dados reais de negócios</li><li>Construí dashboards interativos no <strong>Power BI</strong> para análise de desempenho comercial</li><li>Trabalhei com <strong>SQL</strong> para extração e manipulação de dados em bancos relacionais</li><li>Desenvolvi scripts em <strong>Python</strong> para limpeza, análise exploratória e visualização de dados</li></ul><p><strong>Ferramentas:</strong> Python | SQL | Power BI | Excel | Estatística</p></div>
+
+<!-- notionvc: be65cd6f-ac5a-4b71-8e19-7cd8437e7863 -->
+</div>
+<!-- Edu 2 -->
+<div class="relative">
+<div class="absolute -left-[23px] top-1.5 w-3 h-3 rounded-full bg-surface-container-highest border-2 border-surface-container-lowest"></div>
+<div class="flex flex-wrap items-center justify-between gap-1">
+<h4 class="font-headline-md text-[16px] text-on-surface font-bold">Desenvolvimento Web</h4>
+<span class="font-label-code text-label-code text-on-surface-variant">2021 - 2022</span>
+</div>
+<p class="font-label-code text-label-code text-on-surface-variant">TRYBE</p>
+<div class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mt-2 space-y-2.5"><p>A Trybe é uma escola de desenvolvimento web com mais de 1500 horas de formação que aborda fundamentos de desenvolvimento web, Front-end, Back-end, ciência da computação, metodologias ágeis e habilidades comportamentais.</p><p>As competências abordadas no Front-end foram Git, JavaScript, HTML, CSS, e React. No React trabalhamos com estado, eventos, formulários, ciclo de vida de componentes, React Router, React Context, Redux e testes automatizados.</p><p>No Backend os estudos incluíram SQL, MongoDB, Node.js e introdução a Python.</p><p>Em cada módulo existe a parte teórica, os exercícios, as vídeo aulas e o projeto de conclusão do módulo com apoio de instrutores durante todo o processo.</p></div><p></p>
+</div>
+<div class="relative"><div class="absolute -left-[23px] top-1.5 w-3 h-3 rounded-full bg-surface-container-highest border-2 border-surface-container-lowest"></div><div class="flex flex-wrap items-center justify-between gap-1"><h4 class="font-headline-md text-[16px] text-on-surface font-bold">MBA em Business Intelligence &amp; Analytics</h4><span class="font-label-code text-label-code text-on-surface-variant">2023 - 2024</span></div><p class="font-label-code text-label-code text-on-surface-variant">FIA Business School</p><div class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mt-2 space-y-2.5"><p>Especialização executiva voltada para inteligência de dados, modelagem analítica preditiva e governança estratégica de BI para suporte a decisões executivas.</p><p><strong>Principais tópicos:</strong> Data Strategy | Governança de Dados | Predictive Analytics | Gestão Orientada a Dados</p></div></div></div>
+</div>
+<!-- Certifications -->
+
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: FERRAMENTAS E TECNOLOGIA (SERVICES / CAPABILITIES GRID + METRICS) -->
+<section class="w-full max-w-[1200px] mx-auto px-margin py-16" id="ferramentas">
+<!-- Section Title with Accent Line & Subtitle -->
+<div class="mb-12">
+<div class="flex items-center gap-4 mb-3">
+<h2 class="font-headline-xl text-headline-xl text-on-surface tracking-tight font-bold">
+        Ferramentas e Tecnologia
+      </h2>
+<div class="h-[2px] w-24 bg-primary-container hidden sm:block"></div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl leading-relaxed">
+      Soluções analíticas de ponta a ponta: engenharia de dados, cloud, inteligência artificial e automação para geração de valor real aos negócios.
+    </p>
+</div>
+<!-- 6 Cards Grid (3 Columns Desktop, 2 Lines) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Card 1: Soluções Digitais & DW -->
+<div class="bg-surface-container-low border border-outline-variant/40 hover:border-primary-container/60 rounded-DEFAULT p-8 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_32px_-8px_rgba(56,189,248,0.2)] group">
+<div>
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary-container mb-6 group-hover:scale-110 group-hover:bg-primary-container/20 transition-all duration-300">
+<span class="material-symbols-outlined text-[28px]">layers</span>
+</div>
+<h3 class="font-headline-md text-[20px] text-on-surface font-bold tracking-tight mb-3 group-hover:text-primary transition-colors">
+          Soluções Digitais &amp; DW
+        </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-6">
+          Estruturação de data warehouses em BigQuery e Snowflake com modelagem dimensional escalável, star schemas e alta performance.
+        </p>
+</div>
+<a class="inline-flex items-center gap-1.5 font-label-badge text-label-badge text-primary hover:text-primary-container font-semibold transition-colors group-hover:translate-x-1 duration-200" href="#projetos">
+<span>Saiba Mais</span>
+<span class="text-[14px]">→</span>
+</a>
+</div>
+<!-- Card 2: Sistemas Seguros & Governança -->
+<div class="bg-surface-container-low border border-outline-variant/40 hover:border-primary-container/60 rounded-DEFAULT p-8 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_32px_-8px_rgba(56,189,248,0.2)] group">
+<div>
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary-container mb-6 group-hover:scale-110 group-hover:bg-primary-container/20 transition-all duration-300">
+<span class="material-symbols-outlined text-[28px]">shield</span>
+</div>
+<h3 class="font-headline-md text-[20px] text-on-surface font-bold tracking-tight mb-3 group-hover:text-primary transition-colors">
+          Sistemas Seguros &amp; Governança
+        </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-6">
+          Políticas de privacidade, controle granular de acesso, compliance e pipelines auditáveis com validações de dados (dbt tests).
+        </p>
+</div>
+<a class="inline-flex items-center gap-1.5 font-label-badge text-label-badge text-primary hover:text-primary-container font-semibold transition-colors group-hover:translate-x-1 duration-200" href="#projetos">
+<span>Saiba Mais</span>
+<span class="text-[14px]">→</span>
+</a>
+</div>
+<!-- Card 3: Estratégia de Crescimento -->
+<div class="bg-surface-container-low border border-outline-variant/40 hover:border-primary-container/60 rounded-DEFAULT p-8 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_32px_-8px_rgba(56,189,248,0.2)] group">
+<div>
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary-container mb-6 group-hover:scale-110 group-hover:bg-primary-container/20 transition-all duration-300">
+<span class="material-symbols-outlined text-[28px]">trending_up</span>
+</div>
+<h3 class="font-headline-md text-[20px] text-on-surface font-bold tracking-tight mb-3 group-hover:text-primary transition-colors">
+          Estratégia de Crescimento
+        </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-6">
+          Análise de funil, unit economics, cohort de retenção e KPIs operacionais para orientar decisões estratégicas C-Level.
+        </p>
+</div>
+<a class="inline-flex items-center gap-1.5 font-label-badge text-label-badge text-primary hover:text-primary-container font-semibold transition-colors group-hover:translate-x-1 duration-200" href="#projetos">
+<span>Saiba Mais</span>
+<span class="text-[14px]">→</span>
+</a>
+</div>
+<!-- Card 4: Integração de IA & Modelos -->
+<div class="bg-surface-container-low border border-outline-variant/40 hover:border-primary-container/60 rounded-DEFAULT p-8 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_32px_-8px_rgba(56,189,248,0.2)] group">
+<div>
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary-container mb-6 group-hover:scale-110 group-hover:bg-primary-container/20 transition-all duration-300">
+<span class="material-symbols-outlined text-[28px]">memory</span>
+</div>
+<h3 class="font-headline-md text-[20px] text-on-surface font-bold tracking-tight mb-3 group-hover:text-primary transition-colors">
+          Integração de IA &amp; Modelos
+        </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-6">
+          Deploy de modelos preditivos (XGBoost, regressão, classificação) e automações inteligentes integradas a dashboards executivos.
+        </p>
+</div>
+<a class="inline-flex items-center gap-1.5 font-label-badge text-label-badge text-primary hover:text-primary-container font-semibold transition-colors group-hover:translate-x-1 duration-200" href="#projetos">
+<span>Saiba Mais</span>
+<span class="text-[14px]">→</span>
+</a>
+</div>
+<!-- Card 5: Serviços em Nuvem -->
+<div class="bg-surface-container-low border border-outline-variant/40 hover:border-primary-container/60 rounded-DEFAULT p-8 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_32px_-8px_rgba(56,189,248,0.2)] group">
+<div>
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary-container mb-6 group-hover:scale-110 group-hover:bg-primary-container/20 transition-all duration-300">
+<span class="material-symbols-outlined text-[28px]">cloud</span>
+</div>
+<h3 class="font-headline-md text-[20px] text-on-surface font-bold tracking-tight mb-3 group-hover:text-primary transition-colors">
+          Serviços em Nuvem
+        </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-6">
+          Arquiteturas analíticas escaláveis em GCP e AWS, otimizadas para processamento massivo, baixo custo e alta disponibilidade.
+        </p>
+</div>
+<a class="inline-flex items-center gap-1.5 font-label-badge text-label-badge text-primary hover:text-primary-container font-semibold transition-colors group-hover:translate-x-1 duration-200" href="#projetos">
+<span>Saiba Mais</span>
+<span class="text-[14px]">→</span>
+</a>
+</div>
+<!-- Card 6: Automação de Processos -->
+<div class="bg-surface-container-low border border-outline-variant/40 hover:border-primary-container/60 rounded-DEFAULT p-8 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_32px_-8px_rgba(56,189,248,0.2)] group">
+<div>
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary-container mb-6 group-hover:scale-110 group-hover:bg-primary-container/20 transition-all duration-300">
+<span class="material-symbols-outlined text-[28px]">settings</span>
+</div>
+<h3 class="font-headline-md text-[20px] text-on-surface font-bold tracking-tight mb-3 group-hover:text-primary transition-colors">
+          Automação de Processos
+        </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-6">
+          Orquestração de pipelines automatizados via Apache Airflow e Python, eliminando trabalho manual e mitigando falhas.
+        </p>
+</div>
+<a class="inline-flex items-center gap-1.5 font-label-badge text-label-badge text-primary hover:text-primary-container font-semibold transition-colors group-hover:translate-x-1 duration-200" href="#projetos">
+<span>Saiba Mais</span>
+<span class="text-[14px]">→</span>
+</a>
+</div>
+</div>
+<!-- METRICS & IMPACT TELEMETRY -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter pt-12">
+<!-- Metric 1 -->
+
+<!-- Metric 2 -->
+
+<!-- Metric 3 -->
+
+<!-- Metric 4 -->
+
+</div>
+</section><section class="w-full max-w-[1200px] mx-auto px-margin py-12 flex flex-col items-center justify-center" id="habilidades">
+  <div class="text-center max-w-2xl mx-auto mb-8">
+    <h2 class="font-headline-xl text-headline-xl text-on-surface tracking-tight font-bold mb-3">
+      Stack Tecnológica
+    </h2>
+  </div>
+  <div class="flex flex-wrap items-center justify-center gap-4 md:gap-6 w-full">
+    <!-- SQL -->
+    <div class="bg-surface-container-low border border-outline-variant/40 hover:border-primary-container/60 rounded-lg p-6 flex flex-col items-center justify-center gap-3 w-36 h-36 md:w-40 md:h-40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_32px_-8px_rgba(56,189,248,0.2)] group cursor-pointer">
+      <div class="w-12 h-12 rounded-full bg-surface-container-high flex items-center justify-center text-primary group-hover:scale-110 group-hover:bg-primary-container/20 transition-all duration-300">
+        <span class="material-symbols-outlined text-[28px]">database</span>
+      </div>
+      <span class="font-headline-md text-[16px] text-on-surface font-semibold text-center group-hover:text-primary transition-colors">SQL</span>
+    </div>
+    <!-- Python -->
+    <div class="bg-surface-container-low border border-outline-variant/40 hover:border-primary-container/60 rounded-lg p-6 flex flex-col items-center justify-center gap-3 w-36 h-36 md:w-40 md:h-40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_32px_-8px_rgba(56,189,248,0.2)] group cursor-pointer">
+      <div class="w-12 h-12 rounded-full bg-surface-container-high flex items-center justify-center text-primary group-hover:scale-110 group-hover:bg-primary-container/20 transition-all duration-300">
+        <span class="material-symbols-outlined text-[28px]">code</span>
+      </div>
+      <span class="font-headline-md text-[16px] text-on-surface font-semibold text-center group-hover:text-primary transition-colors">Python</span>
+    </div>
+    <!-- Power BI -->
+    <div class="bg-surface-container-low border border-outline-variant/40 hover:border-primary-container/60 rounded-lg p-6 flex flex-col items-center justify-center gap-3 w-36 h-36 md:w-40 md:h-40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_32px_-8px_rgba(56,189,248,0.2)] group cursor-pointer">
+      <div class="w-12 h-12 rounded-full bg-surface-container-high flex items-center justify-center text-primary group-hover:scale-110 group-hover:bg-primary-container/20 transition-all duration-300">
+        <span class="material-symbols-outlined text-[28px]">monitoring</span>
+      </div>
+      <span class="font-headline-md text-[16px] text-on-surface font-semibold text-center group-hover:text-primary transition-colors">Power BI</span>
+    </div>
+    <!-- Tableau -->
+    <div class="bg-surface-container-low border border-outline-variant/40 hover:border-primary-container/60 rounded-lg p-6 flex flex-col items-center justify-center gap-3 w-36 h-36 md:w-40 md:h-40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_32px_-8px_rgba(56,189,248,0.2)] group cursor-pointer">
+      <div class="w-12 h-12 rounded-full bg-surface-container-high flex items-center justify-center text-primary group-hover:scale-110 group-hover:bg-primary-container/20 transition-all duration-300">
+        <span class="material-symbols-outlined text-[28px]">bar_chart</span>
+      </div>
+      <span class="font-headline-md text-[16px] text-on-surface font-semibold text-center group-hover:text-primary transition-colors">Tableau</span>
+    </div>
+    <!-- M. Learning -->
+    <div class="bg-surface-container-low border border-outline-variant/40 hover:border-primary-container/60 rounded-lg p-6 flex flex-col items-center justify-center gap-3 w-36 h-36 md:w-40 md:h-40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_32px_-8px_rgba(56,189,248,0.2)] group cursor-pointer">
+      <div class="w-12 h-12 rounded-full bg-surface-container-high flex items-center justify-center text-primary group-hover:scale-110 group-hover:bg-primary-container/20 transition-all duration-300">
+        <span class="material-symbols-outlined text-[28px]">neurology</span>
+      </div>
+      <span class="font-headline-md text-[16px] text-on-surface font-semibold text-center group-hover:text-primary transition-colors">M. Learning</span>
+    </div>
+    <!-- Excel -->
+    <div class="bg-surface-container-low border border-outline-variant/40 hover:border-primary-container/60 rounded-lg p-6 flex flex-col items-center justify-center gap-3 w-36 h-36 md:w-40 md:h-40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_32px_-8px_rgba(56,189,248,0.2)] group cursor-pointer">
+      <div class="w-12 h-12 rounded-full bg-surface-container-high flex items-center justify-center text-primary group-hover:scale-110 group-hover:bg-primary-container/20 transition-all duration-300">
+        <span class="material-symbols-outlined text-[28px]">table_chart</span>
+      </div>
+      <span class="font-headline-md text-[16px] text-on-surface font-semibold text-center group-hover:text-primary transition-colors">Excel</span>
+    </div>
+  </div>
+</section><section class="w-full max-w-[1200px] mx-auto px-6 py-16" id="projetos-destaque"><div class="text-center max-w-2xl mx-auto mb-10"><h2 class="font-headline-xl text-headline-xl text-on-surface tracking-tight font-bold mb-3">Projetos de Destaque</h2><p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">Seleção de casos analíticos aplicados a desafios de negócio reais, com foco em modelagem dimensional, automação e geração tangível de ROI.</p><div class="flex flex-wrap items-center justify-center gap-2 mt-8"><button class="bg-primary text-on-primary px-5 py-2 rounded-full font-medium shadow-[0_0_15px_rgba(56,189,248,0.4)] transition-all font-label-badge text-label-badge">Todos</button><button class="bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface px-5 py-2 rounded-full font-medium transition-colors border border-outline-variant/40 font-label-badge text-label-badge">Estratégia</button><button class="bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface px-5 py-2 rounded-full font-medium transition-colors border border-outline-variant/40 font-label-badge text-label-badge">Finanças</button><button class="bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface px-5 py-2 rounded-full font-medium transition-colors border border-outline-variant/40 font-label-badge text-label-badge">Operações</button><button class="bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface px-5 py-2 rounded-full font-medium transition-colors border border-outline-variant/40 font-label-badge text-label-badge">Tecnologia</button></div></div><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10"><div class="bg-surface-container-low border border-outline-variant/40 rounded-lg overflow-hidden group hover:border-primary-container/60 transition-all duration-300 shadow-sm"><div class="w-full h-48 overflow-hidden bg-surface-container"><img alt="Business Growth Strategy" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBoIaZfrVIr-AEYQpI5VFORJ6GcXYXH3-vBMkmwBTOgpKcKxpelks8CuWsEezpi0Bt10eaYrpaNvyUZI2Cz6qrZLdUn7bM21diqB946DcDmnLhW6esEbL2YLEsW7SHLYNBHfymHfnASu0GhW_y6mIA4-yxNNL4bOo8wS0SWsc8AhZoTCiJEONTbX1929SlmYYxyYBo5D3sz_XmuqzilNCYUfwSn7t0NFJbzcXY6A-M"></div><div class="p-5"><h3 class="text-on-surface font-bold text-headline-md text-[18px] mb-1 group-hover:text-primary transition-colors">Business Growth Strategy</h3><p class="text-on-surface-variant text-body-sm font-medium mb-3">Strategic Planning</p><div class="flex flex-wrap gap-2"><span class="bg-surface text-primary text-label-badge px-2.5 py-1 rounded-full border border-primary-container/30 font-label-code">Estratégia</span><span class="bg-surface text-primary text-label-badge px-2.5 py-1 rounded-full border border-primary-container/30 font-label-code">Consultoria</span></div></div></div><div class="bg-surface-container-low border border-outline-variant/40 rounded-lg overflow-hidden group hover:border-primary-container/60 transition-all duration-300 shadow-sm"><div class="w-full h-48 overflow-hidden bg-surface-container"><img alt="Financial Restructuring" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCIxgioIyTBCXkIrJJJZpxPRfWaxBvSfxsAIi3A1OmcCdVhMrUrCTNbeJPShv3EDQ1eA3ZgW1wUL_gXYgWhM_vUza8eNN-6S3DMu3Tx-3rn5pHDir42mIR3miGWrp1_2CMRsylPVhPJziRSwk7H_88MmXh5HhB9umTJmPWxc3ru_HYWE325IfGblA4KeDO8vGw0lml0vk5dAJhYbkzH-6hRgfsV23er6PVOXxnad3E"></div><div class="p-5"><h3 class="text-on-surface font-bold text-headline-md text-[18px] mb-1 group-hover:text-primary transition-colors">Financial Restructuring</h3><p class="text-on-surface-variant text-body-sm font-medium mb-3">Financial Advisory</p><div class="flex flex-wrap gap-2"><span class="bg-surface text-primary text-label-badge px-2.5 py-1 rounded-full border border-primary-container/30 font-label-code">Finanças</span><span class="bg-surface text-primary text-label-badge px-2.5 py-1 rounded-full border border-primary-container/30 font-label-code">Investimentos</span></div></div></div><div class="bg-surface-container-low border border-outline-variant/40 rounded-lg overflow-hidden group hover:border-primary-container/60 transition-all duration-300 shadow-sm"><div class="w-full h-48 overflow-hidden bg-surface-container"><img alt="Supply Chain Optimization" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUfIgwlVvTtR0YJxljp7Vc5X79mkxHNWF0Slg1bdS1yGB1lEg5RKJrOq9tQNzOFt-wXRtJvhf79ai8735b6Sz_ewUn7dBL7HlEgNNfuFyElKL4HNJHeHflIKi3FEqG9tgyCZGsV4YFIAJH-XnI_q43qS_FwT_Ri_bK4OffHTITiW1YVK5OulwZuIMZzoNzdjAsIobsO5czdBgOS4d4qqX7jAADuGL8N3IroNpSUDE"></div><div class="p-5"><h3 class="text-on-surface font-bold text-headline-md text-[18px] mb-1 group-hover:text-primary transition-colors">Supply Chain Optimization</h3><p class="text-on-surface-variant text-body-sm font-medium mb-3">Operations Management</p><div class="flex flex-wrap gap-2"><span class="bg-surface text-primary text-label-badge px-2.5 py-1 rounded-full border border-primary-container/30 font-label-code">Operações</span><span class="bg-surface text-primary text-label-badge px-2.5 py-1 rounded-full border border-primary-container/30 font-label-code">Logística</span></div></div></div><div class="bg-surface-container-low border border-outline-variant/40 rounded-lg overflow-hidden group hover:border-primary-container/60 transition-all duration-300 shadow-sm"><div class="w-full h-48 overflow-hidden bg-surface-container"><img alt="Digital Transformation" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTumVLliyqW18YI9IIaN9-fsdF4DI3-pLtP3TsxEkERsv8nIkdSIqwi81Zi0SUeOIN9OdTgzyPHcv5U9--sGfvxJl84ulOC10RrMuDpmgxXTCYBtdOunNwU7FCoN60NDnQWdgqkOy-QaDE-6Kc_Itj4XEGtRn-zyt-z0LEgkeaPG5yMaKgunRjf3F5yogAKXtbadJhUfqFK6eQFPcHgRRdwxJXQZGydCIkmR4aTCg"></div><div class="p-5"><h3 class="text-on-surface font-bold text-headline-md text-[18px] mb-1 group-hover:text-primary transition-colors">Digital Transformation</h3><p class="text-on-surface-variant text-body-sm font-medium mb-3">Technology Consulting</p><div class="flex flex-wrap gap-2"><span class="bg-surface text-primary text-label-badge px-2.5 py-1 rounded-full border border-primary-container/30 font-label-code">Tecnologia</span><span class="bg-surface text-primary text-label-badge px-2.5 py-1 rounded-full border border-primary-container/30 font-label-code">Inovação</span></div></div></div><div class="bg-surface-container-low border border-outline-variant/40 rounded-lg overflow-hidden group hover:border-primary-container/60 transition-all duration-300 shadow-sm"><div class="w-full h-48 overflow-hidden bg-surface-container"><img alt="Market Expansion" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnMy_Avfnl-ocb4kUDAxaqbpKALKTYo50Ds_ZSJYd2DNLroYkfoFqzcdbZPVH_mg2VYXA4hocqLJ_vCoqwKm0d-19zqpdv5zVvADiOhNNubHCuJrlugdZWruossxeKZH6mvPvdlqpmWa9EhYJOsh7W1_TdhjvYIpm2NEKTcSCX80DHfSGZsyZiKNv1xQdQrYzVzMa-CURBNLe5mX-VBLyVw4zBVYBaLMgp4vV49Dg"></div><div class="p-5"><h3 class="text-on-surface font-bold text-headline-md text-[18px] mb-1 group-hover:text-primary transition-colors">Market Expansion</h3><p class="text-on-surface-variant text-body-sm font-medium mb-3">Strategic Planning</p><div class="flex flex-wrap gap-2"><span class="bg-surface text-primary text-label-badge px-2.5 py-1 rounded-full border border-primary-container/30 font-label-code">Estratégia</span><span class="bg-surface text-primary text-label-badge px-2.5 py-1 rounded-full border border-primary-container/30 font-label-code">Growth</span></div></div></div><div class="bg-surface-container-low border border-outline-variant/40 rounded-lg overflow-hidden group hover:border-primary-container/60 transition-all duration-300 shadow-sm"><div class="w-full h-48 overflow-hidden bg-surface-container"><img alt="Investment Strategy" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCYVaK-zyk_ZmM3ae5Oh81GuX4bAHlf0a0DPnhDlRGJzBkJwzMkyqMMNKBr1cL-IJ1jI2M1HObJP59808EbsNlWdDYy9eYwR3TC5vcRWQZuD5Xonv9xsAEgl8RA2Lg95RQQ7s1DQN1WPs7mAyrlhiLrL_oz0RmYF_a56EqxPDQ4RRiDhyN9ip_rC8Q8H1i8LLBB9DHhNH6oXAUUa2iwLS_bt-zEcpznXVHN1RRfkBA"></div><div class="p-5"><h3 class="text-on-surface font-bold text-headline-md text-[18px] mb-1 group-hover:text-primary transition-colors">Investment Strategy</h3><p class="text-on-surface-variant text-body-sm font-medium mb-3">Financial Advisory</p><div class="flex flex-wrap gap-2"><span class="bg-surface text-primary text-label-badge px-2.5 py-1 rounded-full border border-primary-container/30 font-label-code">Finanças</span><span class="bg-surface text-primary text-label-badge px-2.5 py-1 rounded-full border border-primary-container/30 font-label-code">Investimentos</span></div></div></div></div><div class="flex items-center justify-center mt-10"><a class="bg-primary-container hover:bg-primary text-on-primary-container hover:text-on-primary px-8 py-3 rounded-full font-semibold shadow-[0_0_20px_rgba(56,189,248,0.4)] transition-all font-label-badge text-label-badge uppercase tracking-wider inline-flex items-center justify-center" href="#projetos">Ver Todos os Projetos</a></div></section>
+<!-- SECTION 5: FEATURED PROJECTS / PORTFOLIO (SINGLE INSTANCE) -->
+
+<!-- SECTION 6: TECHNICAL SKILLS & STACK MATRIX -->
+
+<!-- SECTION 7: WORKFLOW & ANALYTICS METHODOLOGY -->
+
+<!-- SECTION 8: CALL TO ACTION & CONTACT -->
+<section class="w-full max-w-[1200px] mx-auto px-margin py-16" id="contato">
+
+</section>
+<!-- Interactive Logic for Portfolio Filtering and Fast Feedback -->
+<script>
+    // Project Category Filtering
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const projectCards = document.querySelectorAll('.project-card');
+
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const filter = button.getAttribute('data-filter');
+
+        // Toggle active button UI
+        filterButtons.forEach(btn => {
+          btn.classList.remove('bg-surface-container-high', 'text-primary', 'shadow-sm');
+          btn.classList.add('text-on-surface-variant');
+        });
+        button.classList.add('bg-surface-container-high', 'text-primary', 'shadow-sm');
+        button.classList.remove('text-on-surface-variant');
+
+        // Filter cards
+        projectCards.forEach(card => {
+          const category = card.getAttribute('data-category');
+          if (filter === 'all' || category === filter) {
+            card.classList.remove('hidden');
+          } else {
+            card.classList.add('hidden');
+          }
+        });
+      });
+    });
+
+    // Copy Email to Clipboard interaction
+    const copyBtn = document.getElementById('copy-email-btn');
+    const copyLabel = document.getElementById('copy-email-label');
+
+    if (copyBtn) {
+      copyBtn.addEventListener('click', () => {
+        const email = 'contato.lucas.data@gmail.com';
+        navigator.clipboard.writeText(email).then(() => {
+          copyLabel.innerText = 'Copiado!';
+          setTimeout(() => {
+            copyLabel.innerText = 'Copiar E-mail';
+          }, 2500);
+        }).catch(() => {
+          copyLabel.innerText = email;
+        });
+      });
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest mt-space-xl py-space-xl"><div class="max-w-[1200px] mx-auto px-margin flex flex-col md:flex-row items-center justify-between gap-space-lg"><div class="flex flex-col items-center md:items-start gap-1"><div class="flex items-center gap-2"><span class="font-headline-md text-headline-md text-on-surface">Datafolio</span><span class="font-label-code text-label-badge text-outline">v2.4.0</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">© 2024 Datafolio Analytics. Todos os direitos reservados.</p></div><div class="flex items-center flex-wrap justify-center gap-space-md"><a class="font-label-code text-label-code text-on-surface-variant hover:text-primary transition-colors flex items-center gap-1.5" href="#"><span class="material-symbols-outlined text-[16px]">link</span>LinkedIn</a><a class="font-label-code text-label-code text-on-surface-variant hover:text-primary transition-colors flex items-center gap-1.5" href="#"><span class="material-symbols-outlined text-[16px]">terminal</span>GitHub</a><a class="font-label-code text-label-code text-on-surface-variant hover:text-primary transition-colors flex items-center gap-1.5" href="#"><span class="material-symbols-outlined text-[16px]">analytics</span>Tableau Public</a><a class="font-label-code text-label-code text-on-surface-variant hover:text-primary transition-colors flex items-center gap-1.5" href="#"><span class="material-symbols-outlined text-[16px]">dataset</span>Kaggle</a></div></div></footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>
